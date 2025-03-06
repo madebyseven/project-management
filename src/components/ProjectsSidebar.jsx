@@ -26,7 +26,7 @@ export default function ProjectsSidebar({
           }
 
           return (
-            <li key={projects.id}>
+            <li key={project.id}>
               <button
                 className={cssClasses}
                 onClick={() => onSelectProject(project.id)}
